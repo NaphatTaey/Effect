@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid; */
+}
+
+body {
+  border: 2px solid;
+  margin: 0;
+  padding: 44px;
+  background: #eef2ff;
+}
+
+.scene {
+  width: 430px;
+  height: 330px;
+  border-radius: 20px;
+  background: linear-gradient(#07f667, #cfcc25);
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.glass-panel {
+  width: 300px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 30px rgba(198, 32, 7, 0.5);
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.eyebrow {
+  margin: 0 0 10px 0;
+  padding: 1px 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h2 {
+  padding: 2px;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+p {
+  padding: 2px;
+  font-size: 15px;
+  line-height: 1.5;
+}
